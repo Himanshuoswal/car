@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honda Cars</title>
+    <style>
+        /* CSS for styling */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .car-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 50px;
+        }
+        .car-search {
+            display: flex;
+            align-items: center;
+        }
+        .search-input {
+            margin-right: 10px;
+        }
+        .btn button {
+            margin-right: 10px;
+        }
+        .Htext {
+            font-size: initial;
+        }
+        .more {
+            color: blue;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <section class="car-section">
+        <div class="car-search">
+            <div class="search-input">
+                <input id="searchInput" type="text" placeholder="Search for your favorite cars" class="form-control">
+            </div>
+            <div class="btn">
+                <button class="clear">Clear All</button>
+                <button onclick="searchHonda()" class="L">Search Honda</button>
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <div class="Htext">
+                <p>Choose from 1027 used cars in Mumbai available at affordable prices on our car website. Some of the most popular brands for second-hand cars in Delhi NCR are:</p>
+                <p>Maruti (354 cars available)</p>
+                <p>Hyundai (239 cars available)</p>
+                <p>Honda (144 cars available)</p>
+                <p>Tata (81 cars available)</p>
+                <p>Renault (41 cars available)</p>
+            </div>
+            <span class="more">More</span>
+        </div>
+    </section>
+</div>
+
+<script>
+    // Function to redirect to the search results page for Honda
+    function searchHonda() {
+        var redirectUrl = "https://example.com/honda"; // Replace "https://example.com/honda" with the actual URL of your Honda search results page
+        window.location.href = redirectUrl;
+    }
+</script>
+
+</body>
+</html>

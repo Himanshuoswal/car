@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>buy car</title>
+  
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+  <!-- Css Styles -->
+  <link rel="stylesheet" href="../static/css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="../static/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="../static/css/elegant-icons.css" type="text/css">
+  <link rel="stylesheet" href="../static/css/nice-select.css" type="text/css">
+  <link rel="stylesheet" href="../static/css/magnific-popup.css" type="text/css">
+  <link rel="stylesheet" href="../static/css/jquery-ui.min.css" type="text/css">
+  <link rel="stylesheet" href="../static/css/owl.carousel.min.css" type="text/css">
+  <link rel="stylesheet" href="../static/css/slicknav.min.css" type="text/css">
+  <link rel="stylesheet" href="../static/css/banglore.css" type="text/css">
+</head>
+<body>
+
+<!-- ***** Header Area Start ***** -->
+<header class="header-area header-sticky" style="background: black;">
+  <div class="container">
+      <div class="row">
+          <div class="col-12">
+              <nav class="main-nav">
+                  <!-- ***** Logo Start ***** -->
+                  <a href="/" class="logo">Hacker<em> Website</em></a>
+                  <!-- ***** Logo End ***** -->
+                  <!-- ***** Menu Start ***** -->
+                  <ul class="nav">
+                      <li class="dropdown">
+                          <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Buy a car</a>
+                        
+                          <div class="dropdown-menu">
+                              <a class="dropdown-item" href="{% url 'delhi' %}" style="color: black;">Used car Delhi</a>
+                              <a class="dropdown-item" href="{% url 'mumbai' %}" style="color: black;">Used car Mumbai</a>
+                              <a class="dropdown-item" href="{% url 'banglore' %}" style="color: black;">Used car Bangalore</a>
+                              <a class="dropdown-item" href="{% url 'ahemdabad' %}" style="color: black;">Used car Ahmedabad</a>
+                              <a class="dropdown-item" href="{% url 'surat' %}" style="color: black;">Used car Surat</a>
+                              <a class="dropdown-item" href="#" style="color: black;">Used car Gujarat</a>
+                          </div>
+                      </li>
+
+
+                      <li class="dropdown">
+                          <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Sell a car</a>
+                        
+                          <div class="dropdown-menu">
+                              <a class="dropdown-item" href="{% url 'carvaluation' %}" style="color: black;">Used car valuation</a>
+                              <a class="dropdown-item" href="{% url 'delhi' %}" style="color: black;">Used car Delhi</a>
+                              <a class="dropdown-item" href="{% url 'mumbai' %}" style="color: black;">Used car Mumbai</a>
+                              <a class="dropdown-item" href="{% url 'banglore' %}" style="color: black;">Used car Bangalore</a>
+                              <a class="dropdown-item" href="{% url 'ahemdabad' %}" style="color: black;">Used car Ahmedabad</a>
+                              <a class="dropdown-item" href="{% url 'surat' %}" style="color: black;">Used car Surat</a>
+                              
+                          </div>
+                      </li>
+
+
+                      <li class="dropdown">
+                          <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Car finance</a>
+                        
+                          <div class="dropdown-menu">
+                              <a class="dropdown-item" href="{% url 'loan' %}" style="color: black;">Used car loan</a>
+                              <a class="dropdown-item" href="#" style="color: black;">Used car loan eligiblitiy</a>
+                              <a class="dropdown-item" href="#" style="color: black;">Used car loan interest rate</a>
+                              <a class="dropdown-item" href="{% url 'emicalculator' %}" style="color: black;">Used car EmI calculator</a>
+                              <a class="dropdown-item" href="#" style="color: black;">FAQ</a>
+                              <a class="dropdown-item" href="#" style="color: black;">Terms</a>
+                          </div>
+                      </li>
+
+
+                      <li><a href="blog/">Blog</a></li> 
+
+
+                      <li class="dropdown">
+                          <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Car Service</a>
+                        
+                          <div class="dropdown-menu">
+                              <a class="dropdown-item" href="{% url 'challan' %}" style="color: black;">View and pay challan</a>
+                              <a class="dropdown-item" href="{% url 'blog' %}" style="color: black;">Check Vehicle details</a>
+                          </div>
+                      </li>
+                      <li><a href="contact.html">Login</a></li> 
+                  </ul>        
+                  <a class='menu-trigger'>
+                      <span>Menu</span>
+                  </a>
+                  <!-- ***** Menu End ***** -->
+              </nav>
+          </div>
+      </div>
+  </div>
+</header>
+<!-- ***** Header Area End ***** -->
+
+
+  
+<!-- Breadcrumb End -->
+  <div class="breadcrumb-option set-bg" data-setbg="https://t3.ftcdn.net/jpg/06/09/87/48/240_F_609874803_boIlmkyVD3R2Ui0qE8AiIcdfDBPzvez7.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="breadcrumb__text">
+                    <h2>Cars in Banglore </h2>
+                    <div class="breadcrumb__links">
+                        <a href=""><i class="fa-solid fa-house"></i> Home</a>
+                        <span>Buy Car</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Breadcrumb Begin -->
+
+<!-- Car Section Begin -->
+<section class="car spad">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-3">
+              <div class="car__sidebar">
+                  <div class="car__search">
+                      <h5>Car Search</h5>
+                      <form action="#">
+                          <input type="text" placeholder="Search...">
+                          <button type="submit"><i class="fa fa-search"></i></button>
+                      </form>
+                  </div>
+                  <div class="car__filter">
+                      <h5>Car Filter</h5>
+                      <form action="#">
+                          <select>
+                              <option data-display="Brand">Select Brand</option>
+                              <option value="">Maruti</option>
+                              <option value="">Hyundai</option>
+                              <option value="">Tata</option>
+                              <option value="">Renault </option>
+                              <option value="">Mahindra </option>
+                          </select>
+                          <select>
+                              <option data-display="Model">Select Model</option>
+                              <option value=""> </option>
+                              <option value=""> </option>
+                              <option value=""> </option>
+                          </select>
+                          <select>
+                              <option value="">Body Style</option>
+                              <option value="">Option 1</option>
+                              <option value="">Option 2</option>
+                          </select>
+                          <select>
+                              <option value="">Condition</option>
+                              <option value="">First Hand</option>
+                              <option value="">Second Hand</option>
+                          </select>
+                          <select>
+                              <option value="">Transmisson</option>
+                              <option value="">Bluetooth</option>
+                              <option value="">WiFi</option>
+                          </select>
+                          <select>
+                              <option value="">Mileage</option>
+                              <option value="">27</option>
+                              <option value="">20</option>
+                              <option value="">15</option>
+                              <option value="">10</option>
+                          </select>
+                          <select>
+                              <option value="">Engine</option>
+                              <option value="">BS3</option>
+                              <option value="">BS4</option>
+                              <option value="">BS5</option>
+                              <option value="">BS6</option>
+                          </select>
+                          <select>
+                              <option value="">Colors</option>
+                              <option value="">Red</option>
+                              <option value="">Blue</option>
+                              <option value="">Black</option>
+                                <option value="">Yellow</option>
+                          </select>
+                          <div class="filter-price">
+                              <p>Price:</p>
+                              <div class="price-range-wrap">
+                                  <div class="filter-price-range"></div>
+                                  <div class="range-slider">
+                                      <div class="price-input">
+                                          <input type="text" id="filterAmount">
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="car__filter__btn">
+                              <button type="submit" class="site-btn" style="background-color: #ef6e0b;">Reset FIlter</button>
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-9">
+              <div class="car__filter__option">
+                  <div class="row">
+                      <div class="col-lg-6 col-md-6">
+                          <div class="car__filter__option__item">
+                              <h6>Show On Page</h6>
+                              <select>
+                                  <option value="">9 Car</option>
+                                  <option value="">15 Car</option>
+                                  <option value="">20 Car</option>
+                              </select>
+                          </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6">
+                          <div class="car__filter__option__item car__filter__option__item--right">
+                              <h6>Sort By</h6>
+                              <select>
+                                  <option value="">Price: Highest Fist</option>
+                                  <option value="">Price: Lowest Fist</option>
+                              </select>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <div class="car__item">
+                        <div class="car__item__pic__slider owl-carousel">
+                            <img src="https://buycarsonline.in/images/Renault%20Duster%20[2016-2019]%20RXS%20Petrol%20-%2018970.jpg" alt="">
+                            
+                        </div>
+                        <div class="car__item__text">
+                            <div class="car__item__text__inner">
+                                <div class="label-date">2019</div>
+                                <h5><a href="#">2019 Renault Duster 85 PS RXS MT DIESEL</a></h5>
+                                <ul>
+                                    <li><span>35,000</span> mi</li>
+                                    <li>Auto</li>
+                                    <li><span>700</span> hp</li>
+                                </ul>
+                            </div>
+                            <div class="car__item__price">
+                              <span class="car-option" style="background-color: #ef6e0b;">Buy Now</span>
+                                <h6>$31,900</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="car__item">
+                        <div class="car__item__pic__slider owl-carousel">
+                            <img src="https://imgd.aeplcdn.com/1280x720/n/cw/ec/32943/yaris-exterior-right-front-three-quarter-2.jpeg?q=80" alt="">
+                           
+                        </div>
+                        <div class="car__item__text">
+                            <div class="car__item__text__inner">
+                                <div class="label-date">2020</div>
+                                <h5><a href="#">2020 Toyota YARIS G MT</a></h5>
+                                <ul>
+                                    <li><span>35,000</span> mi</li>
+                                    <li>Auto</li>
+                                    <li><span>700</span> hp</li>
+                                </ul>
+                            </div>
+                            <div class="car__item__price">
+                              <span class="car-option" style="background-color: #ef6e0b;">Buy Now</span>
+                                <h6>$120,000</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <div class="car__item">
+                        <div class="car__item__pic__slider owl-carousel">
+                            <img src="https://imgd.aeplcdn.com/1280x720/n/cw/ec/144681/virtus-exterior-right-front-three-quarter-7.jpeg?isig=0&q=80" alt="">
+
+                        </div>
+                        <div class="car__item__text">
+                            <div class="car__item__text__inner">
+                                <div class="label-date">2017</div>
+                                <h5><a href="#">2022 Volkswagen VIRTUS GT PLUS TSI 1.5 EVO DSG</a></h5>
+                                <ul>
+                                    <li><span>35,000</span> mi</li>
+                                    <li>Auto</li>
+                                    <li><span>700</span> hp</li>
+                                </ul>
+                            </div>
+                            <div class="car__item__price">
+                              <span class="car-option" style="background-color: #ef6e0b;">Buy Now</span>
+                                <h6>$31,900</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  <div class="col-lg-4 col-md-4">
+                      <div class="car__item">
+                          <div class="car__item__pic__slider owl-carousel">
+                              <img src="https://imgd.aeplcdn.com/1280x720/n/cw/ec/40087/thar-exterior-right-front-three-quarter-35.jpeg?isig=0&q=80" alt="">
+                              
+                          </div>
+                          <div class="car__item__text">
+                              <div class="car__item__text__inner">
+                                  <div class="label-date">2016</div>
+                                  <h5><a href="#">2021 Mahindra Thar LX PETROL HT</a></h5>
+                                  <ul>
+                                      <li><span>50,000</span> mi</li>
+                                      <li>Auto</li>
+                                      <li><span>900</span> hp</li>
+                                  </ul>
+                              </div>
+                              <div class="car__item__price">
+                                <span class="car-option" style="background-color: #ef6e0b;">Buy Now</span>
+                                  <h6>$89,444</h6>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4">
+                      <div class="car__item">
+                          <div class="car__item__pic__slider owl-carousel">
+                              <img src="https://imgd.aeplcdn.com/1280x720/n/cw/ec/34024/xuv500-exterior-right-front-three-quarter-3.jpeg?q=80" alt="">
+                              
+                          </div>
+                          <div class="car__item__text">
+                              <div class="car__item__text__inner">
+                                  <div class="label-date">2020</div>
+                                  <h5><a href="#">2019 Mahindra XUV500 W7</a></h5>
+                                  <ul>
+                                      <li><span>45,000</span> mi</li>
+                                      <li>Auto</li>
+                                      <li><span>1200</span> hp</li>
+                                  </ul>
+                              </div>
+                              <div class="car__item__price">
+                                <span class="car-option" style="background-color: #ef6e0b;">Buy Now</span>
+                                  <h6>$73,900</h6>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4">
+                      <div class="car__item">
+                          <div class="car__item__pic__slider owl-carousel">
+                              <img src="https://imgd.aeplcdn.com/1056x594/n/ylei5ua_1560005.jpg?q=80" alt="">
+                             
+                          </div>
+                          <div class="car__item__text">
+                              <div class="car__item__text__inner">
+                                  <div class="label-date">2017</div>
+                                  <h5><a href="#">2021 Maruti IGNIS SIGMA 1.2</a></h5>
+                                  <ul>
+                                      <li><span>65,000</span> mi</li>
+                                      <li>Auto</li>
+                                      <li><span>900</span> hp</li>
+                                  </ul>
+                              </div>
+                              <div class="car__item__price">
+                                  <span class="car-option" style="background-color: #ef6e0b;">Buy Now</span>
+                                  <h6>$99,540</h6>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4">
+                      <div class="car__item">
+                          <div class="car__item__pic__slider owl-carousel">
+                              <img src="https://imgd.aeplcdn.com/1280x720/cw/specialVersions/6081.jpg?v=20190110011828&q=80" alt="">
+                            
+                          </div>
+                          <div class="car__item__text">
+                              <div class="car__item__text__inner">
+                                  <div class="label-date">2018</div>
+                                  <h5><a href="#">2019 Honda City 1.5L I-VTEC ZX</a></h5>
+                                  <ul>
+                                      <li><span>80,000</span> mi</li>
+                                      <li>Auto</li>
+                                      <li><span>1100</span> hp</li>
+                                  </ul>
+                              </div>
+                              <div class="car__item__price">
+                                <span class="car-option" style="background-color: #ef6e0b;">Buy Now</span>
+                                  <h6>$91,500</h6>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-4">
+                      <div class="car__item">
+                          <div class="car__item__pic__slider owl-carousel">
+                              <img src="https://imgd-ct.aeplcdn.com/1280x720/n/cw/ec/1/versions/tata-harrier-2021-xza-plus-dark-edition1645784765056.jpg?q=80" alt="">
+                             
+                          </div>
+                          <div class="car__item__text">
+                              <div class="car__item__text__inner">
+                                  <div class="label-date">2016</div>
+                                  <h5><a href="#">2022 Tata Harrier XZA PLUS 2.0L DARK EDITION</a></h5>
+                                  <ul>
+                                      <li><span>39,000</span> mi</li>
+                                      <li>Auto</li>
+                                      <li><span>700</span> hp</li>
+                                  </ul>
+                              </div>
+                              <div class="car__item__price">
+                                <span class="car-option" style="background-color: #ef6e0b;">Buy Now</span>
+                                  <h6>$730,900</h6>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  
+                  <div class="col-lg-4 col-md-4">
+                      <div class="car__item">
+                          <div class="car__item__pic__slider owl-carousel">
+                              <img src="https://imgd.aeplcdn.com/1280x720/cw/ec/23512/Skoda-Rapid-Exterior-118996.jpg?wm=0&q=80" alt="">
+                            
+                          </div>
+                          <div class="car__item__text">
+                              <div class="car__item__text__inner">
+                                  <div class="label-date">2020</div>
+                                  <h5><a href="#">2018 Skoda Rapid STYLE 1.6 MPI AT</a></h5>
+                                  <ul>
+                                      <li><span>35,000</span> mi</li>
+                                      <li>Auto</li>
+                                      <li><span>700</span> hp</li>
+                                  </ul>
+                              </div>
+                              <div class="car__item__price">
+                                <span class="car-option" style="background-color: #ef6e0b;">Buy Now</span>
+                                  <h6>$73,900</h6>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="pagination__option">
+                  <a href="#" class="active">1</a>
+                  <a href="#">2</a>
+                  <a href="#">3</a>
+                  <a href="#"><span class="arrow_carrot-2right"></span></a>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- Car Section End -->
+
+ <!-- Car Details Section Begin -->
+    <section class="car-details spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9">
+                    <div class="car__details__pic">
+                        <div class="car__details__pic__large">
+                            <img class="car-big-img" src="https://imgd-ct.aeplcdn.com/664x415/n/cw/ec/19812/fortuner-exterior-right-front-three-quarter.jpeg?q=80" alt="">
+                        </div>
+                        
+                    </div>
+                    <div class="car__details__tab">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab">Vehicle
+                                    Overview</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab">Technical</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab">Features & Options</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="tab" href="#tabs-4" role="tab">Vehicle Location</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="tabs-1" role="tabpanel">
+                                <div class="car__details__tab__info">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="car__details__tab__info__item">
+                                                <h5>General Information</h5>
+                                                <ul>
+                                                    <li><i class="fa fa-check"></i> making it a trusted choice for families.</li>
+                                                    <li><i class="fa fa-check"></i> Fortuner enjoys popularity in various markets worldwide.</li>
+                                                    <li><i class="fa fa-check"></i> where SUVs are favored for their versatility.</li>
+                                                    <li><i class="fa fa-check"></i> Maecenas eget consectetur quam.
+                                                        Vestibulum ligula.</li>
+                                                    
+                                                   
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="car__details__tab__info__item">
+                                                <h5>General Information</h5>
+                                                <ul>
+                                                    <li><i class="fa fa-check"></i> Pellentesque lacus urna, feugiat non
+                                                        consectetur nec</li>
+                                                    <li><i class="fa fa-check"></i> Aliquam sem neque, efficitur atero
+                                                        lectus vitae.</li>
+                                                    <li><i class="fa fa-check"></i> Pellentesque erat libero, eleifend
+                                                        sit amet felis ido.</li>
+                                                    <li><i class="fa fa-check"></i> Maecenas eget consectetur quam.
+                                                        Vestibulum ligula.</li>
+                                                   
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="car__details__tab__feature">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-6 col-sm-6">
+                                            <div class="car__details__tab__feature__item">
+                                                <h5>Interior Design</h5>
+                                                <ul>
+                                                    <li><i class="fa fa-check-circle"></i> Auxiliary heating</li>
+                                                    <li><i class="fa fa-check-circle"></i> Bluetooth</li>
+                                                    <li><i class="fa fa-check-circle"></i> CD player</li>
+                                                    <li><i class="fa fa-check-circle"></i> Central locking</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-6">
+                                            <div class="car__details__tab__feature__item">
+                                                <h5>Safety Design</h5>
+                                                <ul>
+                                                    <li><i class="fa fa-check-circle"></i> Head-up display</li>
+                                                    <li><i class="fa fa-check-circle"></i> MP3 interface</li>
+                                                    <li><i class="fa fa-check-circle"></i> Navigation system</li>
+                                                    <li><i class="fa fa-check-circle"></i> Panoramic roof</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-6">
+                                            <div class="car__details__tab__feature__item">
+                                                <h5>Extra Design</h5>
+                                                <ul>
+                                                    <li><i class="fa fa-check-circle"></i> Alloy wheels</li>
+                                                    <li><i class="fa fa-check-circle"></i> Electric side mirror</li>
+                                                    <li><i class="fa fa-check-circle"></i> Sports package</li>
+                                                    <li><i class="fa fa-check-circle"></i> Sports suspension</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-6">
+                                            <div class="car__details__tab__feature__item">
+                                                <h5>Extra Design</h5>
+                                                <ul>
+                                                    <li><i class="fa fa-check-circle"></i> MP3 interface</li>
+                                                    <li><i class="fa fa-check-circle"></i> Navigation system</li>
+                                                    <li><i class="fa fa-check-circle"></i> Panoramic roof</li>
+                                                    <li><i class="fa fa-check-circle"></i> Parking sensors</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tabs-2" role="tabpanel">
+                                <div class="car__details__tab__info">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="car__details__tab__info__item">
+                                                <h5>General Information2</h5>
+                                                <ul>
+                                                    <li><i class="fa fa-check"></i> Pellentesque lacus urna, feugiat non
+                                                        consectetur nec</li>
+                                                    <li><i class="fa fa-check"></i> Aliquam sem neque, efficitur atero
+                                                        lectus vitae.</li>
+                                                    <li><i class="fa fa-check"></i> Pellentesque erat libero, eleifend
+                                                        sit amet felis ido.</li>
+                                                    <li><i class="fa fa-check"></i> Maecenas eget consectetur quam.
+                                                        Vestibulum ligula.</li>
+                                                    <li><i class="fa fa-check"></i> Praesent lorem sapien, vestibulum
+                                                        eget aliquet et.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="car__details__tab__info__item">
+                                                <h5>General Information</h5>
+                                                <ul>
+                                                    <li><i class="fa fa-check"></i> Pellentesque lacus urna, feugiat non
+                                                        consectetur nec</li>
+                                                    <li><i class="fa fa-check"></i> Aliquam sem neque, efficitur atero
+                                                        lectus vitae.</li>
+                                                    <li><i class="fa fa-check"></i> Pellentesque erat libero, eleifend
+                                                        sit amet felis ido.</li>
+                                                    <li><i class="fa fa-check"></i> Maecenas eget consectetur quam.
+                                                        Vestibulum ligula.</li>
+                                                    <li><i class="fa fa-check"></i> Praesent lorem sapien, vestibulum
+                                                        eget aliquet et.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="car__details__tab__feature">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-6 col-sm-6">
+                                            <div class="car__details__tab__feature__item">
+                                                <h5>Interior Design</h5>
+                                                <ul>
+                                                    <li><i class="fa fa-check-circle"></i> Auxiliary heating</li>
+                                                    <li><i class="fa fa-check-circle"></i> Bluetooth</li>
+                                                    <li><i class="fa fa-check-circle"></i> CD player</li>
+                                                    <li><i class="fa fa-check-circle"></i> Central locking</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-6">
+                                            <div class="car__details__tab__feature__item">
+                                                <h5>Safety Design</h5>
+                                                <ul>
+                                                    <li><i class="fa fa-check-circle"></i> Head-up display</li>
+                                                    <li><i class="fa fa-check-circle"></i> MP3 interface</li>
+                                                    <li><i class="fa fa-check-circle"></i> Navigation system</li>
+                                                    <li><i class="fa fa-check-circle"></i> Panoramic roof</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-6">
+                                            <div class="car__details__tab__feature__item">
+                                                <h5>Extra Design</h5>
+                                                <ul>
+                                                    <li><i class="fa fa-check-circle"></i> Alloy wheels</li>
+                                                    <li><i class="fa fa-check-circle"></i> Electric side mirror</li>
+                                                    <li><i class="fa fa-check-circle"></i> Sports package</li>
+                                                    <li><i class="fa fa-check-circle"></i> Sports suspension</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-6">
+                                            <div class="car__details__tab__feature__item">
+                                                <h5>Extra Design</h5>
+                                                <ul>
+                                                    <li><i class="fa fa-check-circle"></i> MP3 interface</li>
+                                                    <li><i class="fa fa-check-circle"></i> Navigation system</li>
+                                                    <li><i class="fa fa-check-circle"></i> Panoramic roof</li>
+                                                    <li><i class="fa fa-check-circle"></i> Parking sensors</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tabs-3" role="tabpanel">
+                                <div class="car__details__tab__info">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="car__details__tab__info__item">
+                                                <h5>General Information3</h5>
+                                                <ul>
+                                                    <li><i class="fa fa-check"></i> Pellentesque lacus urna, feugiat non
+                                                        consectetur nec</li>
+                                                    <li><i class="fa fa-check"></i> Aliquam sem neque, efficitur atero
+                                                        lectus vitae.</li>
+                                                    <li><i class="fa fa-check"></i> Pellentesque erat libero, eleifend
+                                                        sit amet felis ido.</li>
+                                                    <li><i class="fa fa-check"></i> Maecenas eget consectetur quam.
+                                                        Vestibulum ligula.</li>
+                                                    <li><i class="fa fa-check"></i> Praesent lorem sapien, vestibulum
+                                                        eget aliquet et.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="car__details__tab__info__item">
+                                                <h5>General Information</h5>
+                                                <ul>
+                                                    <li><i class="fa fa-check"></i> Pellentesque lacus urna, feugiat non
+                                                        consectetur nec</li>
+                                                    <li><i class="fa fa-check"></i> Aliquam sem neque, efficitur atero
+                                                        lectus vitae.</li>
+                                                    <li><i class="fa fa-check"></i> Pellentesque erat libero, eleifend
+                                                        sit amet felis ido.</li>
+                                                    <li><i class="fa fa-check"></i> Maecenas eget consectetur quam.
+                                                        Vestibulum ligula.</li>
+                                                    <li><i class="fa fa-check"></i> Praesent lorem sapien, vestibulum
+                                                        eget aliquet et.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="car__details__tab__feature">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-6 col-sm-6">
+                                            <div class="car__details__tab__feature__item">
+                                                <h5>Interior Design</h5>
+                                                <ul>
+                                                    <li><i class="fa fa-check-circle"></i> Auxiliary heating</li>
+                                                    <li><i class="fa fa-check-circle"></i> Bluetooth</li>
+                                                    <li><i class="fa fa-check-circle"></i> CD player</li>
+                                                    <li><i class="fa fa-check-circle"></i> Central locking</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-6">
+                                            <div class="car__details__tab__feature__item">
+                                                <h5>Safety Design</h5>
+                                                <ul>
+                                                    <li><i class="fa fa-check-circle"></i> Head-up display</li>
+                                                    <li><i class="fa fa-check-circle"></i> MP3 interface</li>
+                                                    <li><i class="fa fa-check-circle"></i> Navigation system</li>
+                                                    <li><i class="fa fa-check-circle"></i> Panoramic roof</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-6">
+                                            <div class="car__details__tab__feature__item">
+                                                <h5>Extra Design</h5>
+                                                <ul>
+                                                    <li><i class="fa fa-check-circle"></i> Alloy wheels</li>
+                                                    <li><i class="fa fa-check-circle"></i> Electric side mirror</li>
+                                                    <li><i class="fa fa-check-circle"></i> Sports package</li>
+                                                    <li><i class="fa fa-check-circle"></i> Sports suspension</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-6">
+                                            <div class="car__details__tab__feature__item">
+                                                <h5>Extra Design</h5>
+                                                <ul>
+                                                    <li><i class="fa fa-check-circle"></i> MP3 interface</li>
+                                                    <li><i class="fa fa-check-circle"></i> Navigation system</li>
+                                                    <li><i class="fa fa-check-circle"></i> Panoramic roof</li>
+                                                    <li><i class="fa fa-check-circle"></i> Parking sensors</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="tabs-4" role="tabpanel">
+                                <div class="car__details__tab__info">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="car__details__tab__info__item">
+                                                <h5>General Information4</h5>
+                                                <ul>
+                                                    <li><i class="fa fa-check"></i> Pellentesque lacus urna, feugiat non
+                                                        consectetur nec</li>
+                                                    <li><i class="fa fa-check"></i> Aliquam sem neque, efficitur atero
+                                                        lectus vitae.</li>
+                                                    <li><i class="fa fa-check"></i> Pellentesque erat libero, eleifend
+                                                        sit amet felis ido.</li>
+                                                    <li><i class="fa fa-check"></i> Maecenas eget consectetur quam.
+                                                        Vestibulum ligula.</li>
+                                                    <li><i class="fa fa-check"></i> Praesent lorem sapien, vestibulum
+                                                        eget aliquet et.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="car__details__tab__info__item">
+                                                <h5>General Information</h5>
+                                                <ul>
+                                                    <li><i class="fa fa-check"></i> Pellentesque lacus urna, feugiat non
+                                                        consectetur nec</li>
+                                                    <li><i class="fa fa-check"></i> Aliquam sem neque, efficitur atero
+                                                        lectus vitae.</li>
+                                                    <li><i class="fa fa-check"></i> Pellentesque erat libero, eleifend
+                                                        sit amet felis ido.</li>
+                                                    <li><i class="fa fa-check"></i> Maecenas eget consectetur quam.
+                                                        Vestibulum ligula.</li>
+                                                    <li><i class="fa fa-check"></i> Praesent lorem sapien, vestibulum
+                                                        eget aliquet et.</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="car__details__tab__feature">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-6 col-sm-6">
+                                            <div class="car__details__tab__feature__item">
+                                                <h5>Interior Design</h5>
+                                                <ul>
+                                                    <li><i class="fa fa-check-circle"></i> Auxiliary heating</li>
+                                                    <li><i class="fa fa-check-circle"></i> Bluetooth</li>
+                                                    <li><i class="fa fa-check-circle"></i> CD player</li>
+                                                    <li><i class="fa fa-check-circle"></i> Central locking</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-6">
+                                            <div class="car__details__tab__feature__item">
+                                                <h5>Safety Design</h5>
+                                                <ul>
+                                                    <li><i class="fa fa-check-circle"></i> Head-up display</li>
+                                                    <li><i class="fa fa-check-circle"></i> MP3 interface</li>
+                                                    <li><i class="fa fa-check-circle"></i> Navigation system</li>
+                                                    <li><i class="fa fa-check-circle"></i> Panoramic roof</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-6">
+                                            <div class="car__details__tab__feature__item">
+                                                <h5>Extra Design</h5>
+                                                <ul>
+                                                    <li><i class="fa fa-check-circle"></i> Alloy wheels</li>
+                                                    <li><i class="fa fa-check-circle"></i> Electric side mirror</li>
+                                                    <li><i class="fa fa-check-circle"></i> Sports package</li>
+                                                    <li><i class="fa fa-check-circle"></i> Sports suspension</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-6 col-sm-6">
+                                            <div class="car__details__tab__feature__item">
+                                                <h5>Extra Design</h5>
+                                                <ul>
+                                                    <li><i class="fa fa-check-circle"></i> MP3 interface</li>
+                                                    <li><i class="fa fa-check-circle"></i> Navigation system</li>
+                                                    <li><i class="fa fa-check-circle"></i> Panoramic roof</li>
+                                                    <li><i class="fa fa-check-circle"></i> Parking sensors</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="car__details__sidebar">
+                        <div class="car__details__sidebar__model">
+                            <ul>
+                                <li>Stock <span>K99D10459934</span></li>
+                                <li>Vin <span>3VWKM245686</span></li>
+                            </ul>
+                            <a href="#" class="primary-btn" style="background-color: #ef6e0b;">Get Today Is Price</a>
+                            <p>Pricing in 11/26/2019</p>
+                        </div>
+                        <div class="car__details__sidebar__payment">
+                            <ul>
+                                <li>MSRP <span>$120,000</span></li>
+                                <li>Dealer Discounts <span>$3,000</span></li>
+                                <li>Price <span>$117,000</span></li>
+                            </ul>
+                            <a href="#" class="primary-btn" style="background-color: #ef6e0b;"><i class="fa fa-credit-card"></i> Express Purchase</a>
+                            <a href="#" class="primary-btn sidebar-btn"><i class="fa fa-sliders"></i> Build Payment</a>
+                            <a href="#" class="primary-btn sidebar-btn"><i class="fa fa-money"></i> Value Trade</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Car Details Section End -->
+
+
+<!-- Footer Section Begin -->
+<footer class="footer set-bg">
+    <div class="container">
+        <div class="footer__contact">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="footer__contact__title">
+                        <h2>Contact Us Now!</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="footer__contact__option">
+                        <div class="option__item"><i class="fa fa-phone"></i> (+12) 345 678 910</div>
+                        <div class="option__item email"><i class="fa fa-envelope-o"></i> Colorlib@gmail.com</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4">
+                <div class="footer__about">
+                    <div class="footer__logo">
+                        <a href="#"><img src="../img/footer-logo.png" alt=""></a>
+                    </div>
+                    <p>Any questions? Let us know in store at 625 Gloria Union, California, United Stated or call us
+                        on (+1) 96 123 8888</p>
+                    <div class="footer__social">
+                        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="google"><i class="fa fa-google"></i></a>
+                        <a href="#" class="skype"><i class="fa fa-skype"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 offset-lg-1 col-md-3">
+                <div class="footer__widget">
+                    <h5>Infomation</h5>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Purchase</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Payemnt</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Shipping</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Return</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3">
+                <div class="footer__widget">
+                    <h5>Infomation</h5>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Hatchback</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Sedan</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> SUV</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Crossover</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="footer__brand">
+                    <h5>Top Brand</h5>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Abarth</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Acura</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Alfa Romeo</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Audi</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> BMW</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Chevrolet</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Ferrari</a></li>
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Honda</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</footer>
+<!-- Footer Section End -->
+  <!-- Js Plugins -->
+  <script src="../static/js/jquery-3.3.1.min.js"></script>
+  <script src="../static/js/bootstrap.min.js"></script>
+  <script src="../static/js/jquery.nice-select.min.js"></script>
+  <script src="../static/js/jquery-ui.min.js"></script>
+  <script src="../static/js/jquery.magnific-popup.min.js"></script>
+  <script src="../static/js/mixitup.min.js"></script>
+  <script src="../static/js/jquery.slicknav.js"></script>
+  <script src="../static/js/owl.carousel.min.js"></script>
+  <script src="../static/js/main.js"></script>
+
+
+</body>
+</html>
